@@ -4,10 +4,8 @@ import { StyleSheet } from "react-native"
 export default styles = (fontFamily, colors) => {
     return StyleSheet.create({
         container: {
-            flex:1,
             // width: '100%',
             padding: 16,
-            backgroundColor: '#D4F1F4'
         },
         heading: {
             textAlign: 'center',
@@ -24,6 +22,7 @@ export default styles = (fontFamily, colors) => {
             marginVertical: 5,
             borderRadius:4,
             flexDirection:'row',
+            elevation:5,shadowOpacity:0.2,shadowRadius:2,
             justifyContent:'space-between'
         },
         todosText: {
